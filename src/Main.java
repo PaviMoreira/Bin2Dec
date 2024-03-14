@@ -8,7 +8,7 @@ public class Main {
         String input;
 
         do {
-            System.out.println("Insert a binary number up to 10 digits.");
+            System.out.println("Insert a binary number.");
             input = read.nextLine();
         } while (!isBinaryNumber(input));
 
